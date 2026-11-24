@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Kitchen sink</title>
+  <link rel="stylesheet" href="/assets/site.css">
+  <link rel="icon" href="/favicon.ico">
+  <link rel="canonical" href="https://www.example.com/blog/post/">
+  <link rel="preload" as="font" href="/fonts/inter.woff2" crossorigin>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <meta property="og:image" content="https://cdn.example.com/og.png">
+  <meta name="twitter:image" content="/twitter-card.jpg">
+  <meta name="description" content="https://not-a-link.example/ is just text here">
+  <meta http-equiv="refresh" content="30; url=/blog/">
+  <script src="https://www.googletagmanager.com/gtm.js?id=GTM-XXXX"></script>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","image":["https://www.example.com/images/hero.jpg"],"publisher":{"@type":"Organization","logo":{"url":"https://www.example.com/logo.png"}},"sameAs":["https://twitter.com/example"]}</script>
+  <script>window.config = {"api":"https:\/\/api.example.com\/v1\/","cdn":"https://cdn.example.com/app.js"};</script>
+  <style>
+    @import "/assets/print.css";
+    .hero { background: url('/images/bg.webp'); }
+    @font-face { font-family: Brand; src: url(/fonts/brand.woff2) format("woff2"); }
+  </style>
+</head>
+<body>
+  <a href="related/">Related post</a>
+  <a href="../other-post/">Other post</a>
+  <a href="/about#team">About us</a>
+  <a href="#comments">Jump to comments</a>
+  <a href="https://example.com/apex">Apex domain</a>
+  <a href="https://shop.example.com/">Shop</a>
+  <a href="https://partner.org/" rel="nofollow sponsored" target="_blank">Partner</a>
+  <a href="JavaScript:void(0)">Script link</a>
+  <a href="mailto:hello@example.com">Email us</a>
+  <a href="tel:+441234567890">Call us</a>
+  <a href="/files/report.pdf">Annual report</a>
+  <a href="/page?utm_source=x&amp;utm_medium=y&amp;reference=7&amp;sourceId=9&amp;id=1">Tracked</a>
+  <a href="/docs/">Docs with slash</a>
+  <a href="/docs">Docs without slash</a>
+  <a href="http://[bad">Broken</a>
+  <a href="https://www.example.com/blog/post/related/">Related again</a>
+  <img src="images/photo.jpg" alt="A photo" srcset="images/photo-1x.jpg 1x, images/photo,2x.jpg 2x, images/photo-3x.jpg 3x">
+  <picture>
+    <source srcset="/img/hero.avif" type="image/avif">
+    <img src="/img/hero.jpg" alt="">
+  </picture>
+  <video src="/media/clip.mp4" poster="/media/poster.jpg">
+    <track src="/media/captions.vtt" kind="captions">
+  </video>
+  <audio><source src="/media/song.mp3"></audio>
+  <iframe src="https://www.youtube.com/embed/abc" title="Launch video"></iframe>
+  <form action="/search"><input name="q"><button formaction="/search/advanced">Go</button></form>
+  <map name="m"><area href="/map-target" alt="Map area"></map>
+  <svg><use href="/sprite.svg#icon"></use></svg>
+  <div style="background-image: url('/images/banner.png')"></div>
+  <div data-href="/lazy-link"></div>
+  <blockquote cite="https://source.example.net/quote">A quote</blockquote>
+  <noscript><img src="/pixel.gif" alt=""></noscript>
+</body>
+</html>

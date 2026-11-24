@@ -1,0 +1,9 @@
+dist
+node_modules
+.netlify
+coverage
+playwright-report
+test-results
+package-lock.json
+tests/fixtures
+netlify/lib/page-proxy.ts
